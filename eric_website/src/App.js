@@ -5,6 +5,11 @@ import Projects from './projects'
 import Home from './home'
 import Work from './work'
 import Education from './education'
+import Masonsmaze from './masonsmaze';
+import Asterix from './asterix';
+import DiffieHellman from './diffiehellman';
+import WitnessStatementProcessor from './witnessstatements';
+import FoodChive from './foodchive';
 function App() {
   return (
 
@@ -14,6 +19,11 @@ function App() {
           <ResponsiveAppBar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Projects/Masonsmaze" element={<Masonsmaze />} />
+            <Route path="/Projects/Asterix" element={<Asterix />} />                    
+            <Route path="/Projects/FoodChive" element={<FoodChive />} />                    
+            <Route path="/Projects/DiffieHellman" element={<DiffieHellman />} />                    
+            <Route path="/Projects/WitnessStatementProcessor" element={<WitnessStatementProcessor />} />                    
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Work" element={<Work />} />
             <Route path="/Education" element={<Education />} />

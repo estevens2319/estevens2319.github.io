@@ -11,7 +11,7 @@ const ResponsiveAppBar = () => {
 
     const navigate = useNavigate();
 
-    const SendMessage = (page) => {
+    const buttonClicked = (page) => {
         let path = '';
         switch (page) {
             case 'Projects':
@@ -43,7 +43,7 @@ const ResponsiveAppBar = () => {
                         {pages.map((page) => (
                             <Button
                                 key={page}
-                                onClick={() => SendMessage(page)}
+                                onClick={() => buttonClicked(page)}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
                                 {page}
