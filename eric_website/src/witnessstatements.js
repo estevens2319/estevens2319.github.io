@@ -1,9 +1,42 @@
 import './App.css';
-
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
+import BackArrow from './backarrow';
 function WitnessStatementProcessor() {
     return (
         <div className="WitnessStatementProcessor">
-            <h2>This is the WitnessStatementProcessor page</h2>
+            <BackArrow />
+            <Box
+                sx={{
+                    padding: 4,
+                    backgroundColor: '#f5f5f5',
+                    borderRadius: 2,
+                    boxShadow: 3,
+                    width: '60%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 1,
+                }}
+            >
+                <Typography variant="h4" component="div" gutterBottom>
+                    Witness Statement Processor
+                </Typography>
+                <Link to="https://github.com/estevens2319/WitnessStatements" target="_blank" rel="noopener noreferrer">
+                    Link to Project on Github
+                </Link>
+                <br />
+                <Typography variant="body1" component="div" textAlign='center' fontSize='130%' width='80%'>
+                    This was a semester long project with the goal being to create a software that could aid law enforcement in child rescue.
+                    <br />
+                    This project combines Machine learning with software engineering to create a product that can quickly extract important information from long 
+                    verbose witness statements cutting down the time required for law enforcement to read and use them.
+                    <br /><br />
+
+                </Typography>
+
+            </Box>
         </div>
     );
 }

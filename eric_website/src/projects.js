@@ -6,9 +6,12 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
 import ProjectList from './projectlist';
-import landscape from './landscape.jpg'
 import { useNavigate } from 'react-router-dom';
-
+import foodchiveicon from './images/foodchiveicon.png'
+import keyicon from './images/keyicon.jpg'
+import asterixicon from './images/asterix.png'
+import witnessicon from './images/witnessstatement.png'
+import masonsicon from './images/masonsicon.png'
 function Projects() {
     const spacing = 8;
     const navigate = useNavigate();
@@ -39,14 +42,20 @@ function Projects() {
         };
 
     let projectListJson = {};
-    
+    let images = {};
+
     Object.keys(ProjectList).forEach((key) => {
         projectListJson[key]= ProjectList[key];
     });
- 
+    
+    images["FoodChive"] = foodchiveicon;
+    images["Mason's Maze"] = masonsicon;
+    images["Asterix's Store"] = asterixicon;
+    images["Diffie Hellman Example"] = keyicon;
+    images["Witness Statement Processor"] = witnessicon;
     return (
         <div className="projects">
-            <h2>This is a page of projects I am proud of</h2>
+            <h2>This is a page of past and present projects I am proud of</h2>
                 <Grid sx={{ flexGrow: 1 }} container spacing={2} justifyContent="center">
                 <Grid item xs={8}>
                     <Grid container justifyContent="center" spacing={spacing}>
@@ -80,8 +89,8 @@ function Projects() {
                                             }}
                                         >
                                             <img
-                                                src={landscape}
-                                                style={{ marginBottom: 10, maxWidth: '150px', objectFit: 'cover' }}
+                                                src={images[value]}
+                                                style={{ marginBottom: 10, maxHeight:'30%', objectFit: 'cover' }}
                                                 alt={value}
                                             />
                                             <Typography variant="h6" component="div">

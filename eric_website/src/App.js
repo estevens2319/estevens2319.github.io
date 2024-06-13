@@ -10,10 +10,15 @@ import Asterix from './asterix';
 import DiffieHellman from './diffiehellman';
 import WitnessStatementProcessor from './witnessstatements';
 import FoodChive from './foodchive';
+import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material/styles';
+
+let theme = createTheme();
+theme = responsiveFontSizes(theme);
 function App() {
   return (
 
     <div className="App">
+      <ThemeProvider theme={theme}>
       <Router>
         <div>
           <ResponsiveAppBar />
@@ -30,6 +35,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      </ThemeProvider>
     </div>
 
   );

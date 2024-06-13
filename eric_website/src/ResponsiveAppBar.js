@@ -85,7 +85,7 @@ const ResponsiveAppBar = () => {
                             <Button
                                 key={page}
                                 onClick={() => buttonClicked(page)}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: 'white', display: 'block', fontSize:'120%' }}
                             >
                                 {page}
                             </Button>
