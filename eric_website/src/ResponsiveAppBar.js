@@ -13,7 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['About Me', 'Projects', 'Work History', 'Education'];
+const pages = ['About Me', 'Projects', 'Work History'];
 
 const ResponsiveAppBar = () => {
     const navigate = useNavigate();
@@ -27,9 +27,6 @@ const ResponsiveAppBar = () => {
                 break;
             case 'Work History':
                 path = '/Work';
-                break;
-            case 'Education':
-                path = '/Education';
                 break;
             case 'About Me':
                 path = '/';

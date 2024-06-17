@@ -68,8 +68,8 @@ function Projects() {
                                             width: 200,
                                             backgroundColor: (theme) =>
                                                 theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-                                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.5)', // Darker shadow
-                                            border: '1px solid rgba(0, 0, 0, 0.5)', // Darker border
+                                            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.5)', 
+                                            border: '1px solid rgba(0, 0, 0, 0.5)', 
                                             padding: 2,
                                             display: 'flex',
                                             flexDirection: 'column',
