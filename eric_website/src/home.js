@@ -109,7 +109,6 @@ function Home() {
                             <Typography fontSize='130%' textAlign='center' fontWeight='bold'>
                                 Interests
                             </Typography>
-                            <br />
                             During my time at University of Massachusetts, I was exposed to many different aspects of computer science.
                             <br />
                             What interests me most post graduation is cyber security and threat hunting.
