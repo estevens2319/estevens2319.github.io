@@ -35,7 +35,8 @@ function FoodChive() {
                     <br />
                     Over the course of this project, many principles of Software Engineering were utalized, however my biggest takeaway from the project was working 
                     with a real group, with real deadlines and goals to hit, while using Jyra for work flow and Github for version control across group members.
-                    <br /><br />
+                    <br />
+                    Check out the live website using the link {"(Allow for a few moments for the recipes to load as we are using the free version of Mongo DB)"}, or check out the code base on Github!
 
                 </Typography>
 

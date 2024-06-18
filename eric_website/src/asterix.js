@@ -31,8 +31,14 @@ function Asterix() {
                 <Typography variant="body1" component="div" textAlign='center' fontSize='130%' width='80%'>
                     Asterix's Store is the final project for my Distributed Operating Systems course.
                     <br />
-                    This project utilizes many different principles of distributed systems and was a great way for me to have experience working with these distributed systems protocols.
-                    <br /><br />
+                    This project was written using Python and
+                    utilizes many different principles of distributed systems 
+                    and was a great way for me to have experience working with these 
+                    distributed systems protocols. The project involves an HTTP store front interface and an HTTP client.
+                    The store front is broken into seperate micro services, and utalizes caching, replication, fault tolerance, and leader election.
+                    The project was uploaded to AWS for access from anywhere. 
+                    <br/>
+                    Please refer to the Docs folder of the Githup page for more details on this project.
 
                 </Typography>
 

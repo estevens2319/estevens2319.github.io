@@ -31,8 +31,11 @@ function Masonsmaze() {
                 <Typography variant="body1" component="div" textAlign='center' fontSize='130%' width='80%'>
                     Mason's Maze is the final project for my Game Programming course.
                     <br />
-                    This game was created using Unity and implements many different principles of game programming including AI enemies, randomly generated maps, animations, and player controls.
-                    <br /><br />
+                    This game was created using Unity and many C# scripts and implements many different principles of game programming. 
+                    The game includes AI enemies that will track the player, utalizes a randomly generated map for 
+                    a new maze each iteration, adds character animations, and smooth player controls.
+                    <br />
+                    Please see the demonstration video on the Github page to see how the game turned out! 
 
                 </Typography>
 

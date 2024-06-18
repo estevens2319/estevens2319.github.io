@@ -31,7 +31,10 @@ function WitnessStatementProcessor() {
                     This was a semester long project with the goal being to create a software that could aid law enforcement in child rescue.
                     <br />
                     This project combines Machine learning with software engineering to create a product that can quickly extract important information from long 
-                    verbose witness statements cutting down the time required for law enforcement to read and use them.
+                    verbose witness statements cutting down the time required for law enforcement to read and use them. The final product was a web app frontend 
+                    connected to a backend which implemented an ML model that could perform named entity recognition on long witness which would be used to highlight 
+                    the important information in the witness statement. A second feature utalizes Chat GPT's API to read the witness statements and allow the users to ask 
+                    specific questions about the witness statements and Chat GPT will reply with the lines referenced in the witness statements that brought it to the answer. 
                     <br /><br />
 
                 </Typography>

@@ -31,8 +31,10 @@ function DiffieHellman() {
                     This is the final project for my Principles of Applied Cryptography course.
                     <br />
                     This project implements the Diffie Hellman cryptography scheme for secure communication and was a fun and
-                    very interesting way of seeing how the scheme is implemented
-                    <br /><br />
+                    very interesting way of seeing how the scheme is implemented. The program is written in Javascript and 
+                    creates a secure connection between client and server, while also adding a backdoor decryption key for 
+                    the government to be able to decrypt messages if needed.
+                    <br />
 
                 </Typography>
 

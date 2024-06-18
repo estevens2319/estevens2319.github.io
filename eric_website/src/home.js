@@ -4,7 +4,9 @@ import Typography from '@mui/material/Typography';
 import megolf from './images/megolf.JPG';
 import meski from './images/meski.JPG';
 import mecamp from './images/mecamp.JPG';
-import umasslogo from './images/umasslogo.png'
+import umasslogo from './images/umasslogo.png';
+import { Link } from 'react-router-dom';
+
 function Home() {
     return (
         <div className="home">
@@ -26,7 +28,17 @@ function Home() {
                     Eric Stevens
                     <br />
                     <Typography variant='caption' fontSize='45%'>
-                        Master of Science: Computer Science
+                        Email: {" "}
+                        <a href="mailto:estevens2319@gmail.com">Estevens2319@gmail.com</a>
+                        {" "} Github:
+                        <Link
+                            to="https://github.com/estevens2319"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{ marginLeft: '2px' }} // Add margin here
+                        >
+                            Github.com/estevens2319
+                        </Link>
                     </Typography>
                 </Typography>
 

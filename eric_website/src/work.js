@@ -43,7 +43,7 @@ function Work() {
                             <Typography fontSize='110%' fontStyle='italic' textAlign='left'>
                                 Data Annotation Tech, New York, NY
                             </Typography>
-                            Complete individual coding projects and evaluate AI model outputs to improve the models' performance
+                            Complete individual coding projects to improve the AI models' code generation as well as evaluate AI model outputs to improve the models' performance 
                         </Typography>
                     </Box>
 
