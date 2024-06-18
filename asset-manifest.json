@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d6c85246.css",
-    "main.js": "/static/js/main.b2040956.js",
+    "main.js": "/static/js/main.cec95d32.js",
     "static/media/mecamp.JPG": "/static/media/mecamp.a42f4230066c6d0b437e.JPG",
     "static/media/megolf.JPG": "/static/media/megolf.ab6fb907e50720088981.JPG",
     "static/media/meski.JPG": "/static/media/meski.9af2368d905ac91d4d15.JPG",
@@ -12,10 +12,10 @@
     "static/media/makerspace.png": "/static/media/makerspace.b4c4dfaa0ed0728d2e03.png",
     "index.html": "/index.html",
     "main.d6c85246.css.map": "/static/css/main.d6c85246.css.map",
-    "main.b2040956.js.map": "/static/js/main.b2040956.js.map"
+    "main.cec95d32.js.map": "/static/js/main.cec95d32.js.map"
   },
   "entrypoints": [
     "static/css/main.d6c85246.css",
-    "static/js/main.b2040956.js"
+    "static/js/main.cec95d32.js"
   ]
 }
