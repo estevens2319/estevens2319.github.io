@@ -30,7 +30,7 @@ function Home() {
                     <Typography variant='caption' fontSize='45%'>
                         Email: {" "}
                         <a href="mailto:estevens2319@gmail.com">Estevens2319@gmail.com</a>
-                        {" "} Github:
+                        {" "} Github:{" "}
                         <Link
                             to="https://github.com/estevens2319"
                             target="_blank"
@@ -123,11 +123,13 @@ function Home() {
                             </Typography>
                             During my time at University of Massachusetts, I was exposed to many different aspects of computer science.
                             <br />
-                            What interests me most post graduation is cyber security and threat hunting.
+                            What interests me most post graduation is video game design and cyber security.
+                            <br />
+                            As an avid video game player, I have always wanted to pursue a career creating and designing video games. I took a very fun course during my time at school in which I was able to create my own video game with a small team. The end result was a success and I found that I enjoyed creating video games nearly as much as playing them.
                             <br />
                             I have taken a number of cryptography, networking, and security courses and hope to pursue a career along the same path.
                             <br />
-                            My goal is to pursue a career in cyber security and threat hunting.
+                            My goal is to pursue a career in either video game design or cyber security.
 
                         </Typography>
                     </Box>
