@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6c85246.css",
-    "main.js": "/static/js/main.ab4d6308.js",
+    "main.css": "/static/css/main.c53222f0.css",
+    "main.js": "/static/js/main.69e5596f.js",
     "static/media/mecamp.JPG": "/static/media/mecamp.a42f4230066c6d0b437e.JPG",
     "static/media/megolf.JPG": "/static/media/megolf.ab6fb907e50720088981.JPG",
     "static/media/meski.JPG": "/static/media/meski.9af2368d905ac91d4d15.JPG",
@@ -11,11 +11,11 @@
     "static/media/keyicon.jpg": "/static/media/keyicon.62062a7187190a990061.jpg",
     "static/media/makerspace.png": "/static/media/makerspace.b4c4dfaa0ed0728d2e03.png",
     "index.html": "/index.html",
-    "main.d6c85246.css.map": "/static/css/main.d6c85246.css.map",
-    "main.ab4d6308.js.map": "/static/js/main.ab4d6308.js.map"
+    "main.c53222f0.css.map": "/static/css/main.c53222f0.css.map",
+    "main.69e5596f.js.map": "/static/js/main.69e5596f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c85246.css",
-    "static/js/main.ab4d6308.js"
+    "static/css/main.c53222f0.css",
+    "static/js/main.69e5596f.js"
   ]
 }
