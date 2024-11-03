@@ -119,17 +119,12 @@ function Home() {
 
                         <Typography variant="body1" component="div" textAlign='left' fontSize='130%' marginLeft='10%' width='80%'>
                             <Typography fontSize='130%' textAlign='center' fontWeight='bold'>
-                                Interests
+                                Goals
                             </Typography>
                             During my time at University of Massachusetts, I was exposed to many different aspects of computer science.
                             <br />
-                            What interests me most post graduation is video game design and cyber security.
-                            <br />
-                            As an avid video game player, I have always wanted to pursue a career creating and designing video games. I took a very fun course during my time at school in which I was able to create my own video game with a small team. The end result was a success and I found that I enjoyed creating video games nearly as much as playing them.
-                            <br />
-                            I have taken a number of cryptography, networking, and security courses and hope to pursue a career along the same path.
-                            <br />
-                            My goal is to pursue a career in either video game design or cyber security.
+                            From cryptography, web apps, game development, ubiquitous devices, robots, and machine learning, I have gotten
+                            experience with many new technologies. After a lot of careful consideration post graduation, I decided that my goal is to pursue a career in Software Engineering.
 
                         </Typography>
                     </Box>

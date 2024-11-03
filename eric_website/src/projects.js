@@ -12,6 +12,7 @@ import keyicon from './images/keyicon.jpg'
 import asterixicon from './images/asterix.png'
 import witnessicon from './images/witnessstatement.png'
 import masonsicon from './images/masonsicon.png'
+import questionicon from './images/questionmark.jpg'
 function Projects() {
     const spacing = 8;
     const navigate = useNavigate();
@@ -34,6 +35,9 @@ function Projects() {
                 case "FoodChive":
                     path = "FoodChive";
                     break;
+                case "Undisclosed ML Project":
+                    path = 'Undisclosed';
+                    break;
                 default:
                     path = 'Projects';
                     break;
@@ -53,6 +57,7 @@ function Projects() {
     images["Asterix's Store"] = asterixicon;
     images["Diffie Hellman Example"] = keyicon;
     images["Witness Statement Processor"] = witnessicon;
+    images["Undisclosed ML Project"] = questionicon
     return (
         <div className="projects">
             <h2>This is a page of past and present projects I am proud of</h2>

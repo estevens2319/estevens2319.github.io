@@ -9,6 +9,7 @@ import Asterix from './asterix';
 import DiffieHellman from './diffiehellman';
 import WitnessStatementProcessor from './witnessstatements';
 import FoodChive from './foodchive';
+import Undisclosed from './undisclosed';
 import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 let theme = createTheme();
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Projects/Masonsmaze" element={<Masonsmaze />} />
+            <Route path="/Projects/Undisclosed" element={<Undisclosed />} />
             <Route path="/Projects/Asterix" element={<Asterix />} />                    
             <Route path="/Projects/FoodChive" element={<FoodChive />} />                    
             <Route path="/Projects/DiffieHellman" element={<DiffieHellman />} />                    
