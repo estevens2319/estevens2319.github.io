@@ -9,6 +9,7 @@ import Asterix from './asterix';
 import DiffieHellman from './diffiehellman';
 import WitnessStatementProcessor from './witnessstatements';
 import FoodChive from './foodchive';
+import Getrichslow from './getrichslow';
 import Undisclosed from './undisclosed';
 import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material/styles';
 
@@ -19,22 +20,23 @@ function App() {
 
     <div className="App">
       <ThemeProvider theme={theme}>
-      <Router>
-        <div>
-          <ResponsiveAppBar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Projects/Masonsmaze" element={<Masonsmaze />} />
-            <Route path="/Projects/Undisclosed" element={<Undisclosed />} />
-            <Route path="/Projects/Asterix" element={<Asterix />} />                    
-            <Route path="/Projects/FoodChive" element={<FoodChive />} />                    
-            <Route path="/Projects/DiffieHellman" element={<DiffieHellman />} />                    
-            <Route path="/Projects/WitnessStatementProcessor" element={<WitnessStatementProcessor />} />                    
-            <Route path="/Projects" element={<Projects />} />
-            <Route path="/Work" element={<Work />} />
-          </Routes>
-        </div>
-      </Router>
+        <Router>
+          <div>
+            <ResponsiveAppBar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Projects/Masonsmaze" element={<Masonsmaze />} />
+              <Route path="/Projects/Undisclosed" element={<Undisclosed />} />
+              <Route path="/Projects/Asterix" element={<Asterix />} />
+              <Route path="/Projects/FoodChive" element={<FoodChive />} />
+              <Route path="/Projects/DiffieHellman" element={<DiffieHellman />} />
+              <Route path="/Projects/WitnessStatementProcessor" element={<WitnessStatementProcessor />} />
+              <Route path="/Projects/Getrichslow" element={<Getrichslow />} />
+              <Route path="/Projects" element={<Projects />} />
+              <Route path="/Work" element={<Work />} />
+            </Routes>
+          </div>
+        </Router>
       </ThemeProvider>
     </div>
 
